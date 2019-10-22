@@ -1,0 +1,31 @@
+body {
+  background-color: #EE4B6A;
+}
+
+.language {
+  background-color: #EF8354;
+  color: black;
+  font-family: 'Fascinate Inline';
+  font-size: 30px;
+  padding-bottom: 123.5%;
+}
+
+.description {
+  background-color: #0F7173;
+  color: white;
+  font-family: 'Titillium';
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.JavaHide, .jQuery-hide, .Py-hide, .Ruby-hide {
+  display: none;
+}
+
+.hidden {
+  
+}
