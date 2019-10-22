@@ -1,32 +1,25 @@
 $(function() {
   $('.java-show').click(function() {
-    $('.JavaHide').show();
-    $('.jQuery-hide').hide();
-      $('.Ruby-hide').hide();
-      $('.Py-hide').hide();
+    $('.JavaHide').fadeIn(3000);
+    $('.jQuery-hide, .Py-hide, .Ruby-hide').hide();
+
   });
   $('.jQuery-show').click(function() {
-    $('.jQuery-hide').show();
-    $('.JavaHide').hide();
-      $('.Ruby-hide').hide();
-      $('.Py-hide').hide();
-    // $('.Py-hide' '.Ruby-hide').hide();
+    $('.jQuery-hide').fadeIn(3000);
+    $('.JavaHide, .Py-hide, .Ruby-hide').hide();
+
 });
 
   $('.python-show').click(function() {
-    $('.Py-hide').show();
-    $('.jQuery-hide').hide();
-      $('.Ruby-hide').hide();
-      $('.JavaHide').hide();
+    $('.Py-hide').fadeIn(3000);
+    $('.JavaHide, .jQuery-hide, .Ruby-hide').hide();
+
   });
   $('.ruby-show').click(function() {
-    $('.Ruby-hide').show();
-    $('.jQuery-hide').hide();
-      $('.JavaHide').hide();
-      $('.Py-hide').hide();
+    $('.Ruby-hide').fadeIn(3000);
+    $('.JavaHide, .Py-hide, .jQuery-hide').hide();
+
   });
 
 
-
-  // $('.JavaHide .jQuery-hide .Py-hide .Ruby-hide'),hide();
 });
